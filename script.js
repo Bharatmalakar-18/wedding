@@ -58,9 +58,4 @@ musicBtn.addEventListener("click",()=>{
   }
 });
 
-/* WhatsApp Share */
-function shareWhatsApp(){
-  let message="आप सादर आमंत्रित हैं राहुल ❤️ प्रिया के विवाह समारोह में। दिनांक: 25 अप्रैल 2026";
-  let url="https://wa.me/?text="+encodeURIComponent(message);
-  window.open(url,"_blank");
-}
+
