@@ -225,7 +225,7 @@ body{
 }
 
 #countdown{
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top:15px;
   font-weight:bold;
   color: #25D366;
@@ -258,7 +258,7 @@ body{
 }
 
 /* ================= Mobile Responsive ================= */
-@media(max-width:480px){
+/* @media(max-width:480px){
   .wrapper{
     width:90%;
     height:200px;
@@ -276,6 +276,31 @@ body{
     font-size:18px;
   }
   
+
+  .couple img{
+    width:90px;
+    height:90px;
+  }
+} */
+ @media(max-width:480px){
+
+  .wrapper{
+    width:90%;
+    height:200px;
+  }
+
+  .card{
+    width:95%;
+    padding:20px;
+  }
+
+  .card h1{
+    font-size:22px;
+  }
+
+  .event{
+    font-size:18px;
+  }
 
   .couple img{
     width:90px;
